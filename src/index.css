@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.section-title {
+  font-size: 18px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.react-multiple-carousel__arrow--right:focus {
+  outline: none;
+}
+
+.react-multiple-carousel__arrow--left:focus {
+  outline: none;
+}

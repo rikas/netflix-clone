@@ -1,0 +1,114 @@
+.main {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.movie-banner {
+  height: calc(100vh - 200px);
+  position: relative;
+  margin-top: -100px;
+}
+
+.featured-info {
+  z-index: 10;
+  position: absolute;
+}
+
+.featured-info .btn-dark {
+  border: 0;
+  background: rgba(0, 0, 0, .5);
+}
+
+.featured-info .btn-dark:hover {
+  color: black;
+  background: white;
+}
+
+.featured-info {
+  text-shadow: 0px 1px 3px black;
+}
+
+.featured-description {
+  color: white;
+  width: 400px;
+  font-size: .7em;
+}
+
+button.featured-volume {
+  float: right;
+  margin-right: 100px;
+  border: 2px solid #ddd;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: rgba(0, 0, 0, .5);
+  color: #ddd;
+}
+
+button.featured-volume:hover {
+  color: white;
+  border-color: white;
+  background: black;
+}
+
+button.featured-volume:focus {
+  outline: none;
+}
+
+.vimeo-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+.vimeo-wrapper iframe {
+  width: 100vw;
+  height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 100vh;
+  min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.movie-list-wrapper {
+  background: black;
+}
+
+.first-genre-title {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.top-genres-title {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+
+.top-user a {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.top-user a:hover, .to-user a.focus {
+  color: #d8172a;
+  text-decoration: none;
+}
+
+.top-user a:hover .avatar {
+  padding: 1px;
+  border: 1px solid #d8172a;
+}

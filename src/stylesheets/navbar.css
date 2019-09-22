@@ -1,0 +1,65 @@
+.navbar {
+  height: 50px;
+  background: #000;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #d8172a;
+}
+
+.navbar a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  opacity: 0.6;
+}
+
+ul.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-menu li {
+  font-size: 14px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  margin-left: 15px;
+}
+
+.dropdown-menu {
+  border: 1px solid #222;
+  border-radius: 0;
+  background: rgba(0, 0, 0, .8);
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: .8em;
+  color: #fff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background: #d8172a;
+}
+
+.dropdown-menu .dropdown-item:focus {
+  outline: none;
+  background: #d8172a;
+}
